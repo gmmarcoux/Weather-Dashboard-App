@@ -1,0 +1,40 @@
+* {
+    margin: 1;
+    padding: 1;
+}
+
+body {
+    font-family: Raleway;
+    line-height: 1;
+    background: #F6F8E8;
+} 
+
+/* COLOR SCHEME
+Light green : #C1E1D2
+Yellow-white: #F6F8E8
+Orange: #FEC994
+Light orange: #FFEFD8
+Light pink: #FED9C9
+*/
+
+/* HEADER */
+header .headerdiv {
+    border: none;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #C1E1D2, #FED9C9);
+    margin: 3px;
+    padding-top: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+header .headerdiv h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+header .headerdiv h1:hover {
+    cursor: none;
+    color: #ad8a66;
+}
