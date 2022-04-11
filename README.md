@@ -1,12 +1,12 @@
-### Weather-Dashboard-App
+# Weather-Dashboard-App
 
 ## Description
 This website is meant to be interactive tool that shows users the current weather in whatever city they choose, as well as a 5-day forecast. It also includes a feature in which previously searched cities are saved locally and are easily accessible. 
 
 ## Links
-# git-hub: 
+### git-hub: 
 https://github.com/gmmarcoux
-# website:
+### website:
 https://gmmarcoux.github.io/Weather-Dashboard-App/
 
 ## Screen Shots 
