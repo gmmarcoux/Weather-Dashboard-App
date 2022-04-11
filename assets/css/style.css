@@ -31,7 +31,7 @@ header .headerdiv {
 
 header .headerdiv h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 header .headerdiv h1:hover {
@@ -40,11 +40,22 @@ header .headerdiv h1:hover {
 }
 
 /* SEARCH SIDE */
+#previoussearch {
+    border-top: 1px solid #C1E1D2;
+}
+
 #searchbtn {
-    height: auto;
-    padding: 2px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 0px;
     text-align: center;
     justify-content: center;
+    background: #C1E1D2;
+}
+
+#searchbtn:hover {
+    background-color: #FEC994;
+    cursor: pointer;
 }
 
 /* WEATHER SIDE */
