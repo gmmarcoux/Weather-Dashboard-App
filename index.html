@@ -29,16 +29,88 @@
     <!-- MAIN -->
     <main>
 
-        <p>yoyoyo</p>
+        <div class="container">
+            <div class="row">
+                <!-- search -->
+                <div class="w-25 searchside">
+                    <!-- "search for a city:" -->
+                    <h3>Search for a city:</h3>
+                     <!-- input text-bar -->
+                    <input id="inputcity" type="text" class="form-control" placeholder="City Name">
+                    <!-- search button -->
+                    <button id="searchbtn" type="button" class="btn btn-outline-primary w-100">
+                        <i class="fas fa-search"></i>
+                        <p>Search</p>
+                    </button>
+                </div>
+                      
+                <!-- previous search btns -->
+                    <!-- dynamicallly generated search buttons -->
 
-        <!-- col-2 search container -->
-            <!-- search -->
-                <!-- "search for a city:" -->
-                <!-- form text-bar -->
-                <!-- input search button -->
-            <!-- previous search btns -->
-                <!-- dynamicallly generated search buttons -->
-        
+
+                <div class="w-75 weatherside">
+                    <div class="row">
+                        <!-- current weather -->
+                        <div class="col-12">
+                            <h3>Current Weather:</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" id="currentweatherbox">
+                            <div class="row">
+                                <div class="col-12">
+                                    <span class="cityname" id="cityname">City Name</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p id="temperature">Temperature:</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p id="windspeeds">Wind Speeds:</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p id="humidity">Temperature:</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p id="uvindex">UV Index:</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <div class="row">
+                         <!-- prophesied 5-day weather forecast -->
+                         <div class="col-12">
+                            <h3>5-day Weather Prophecy:</h3>
+                        </div>
+                     </div>
+                     <div class="row">
+                         <!-- 5 day boxes -->
+                         <div class="col forecast"></div>
+                         <div class="col forecast"></div>
+                         <div class="col forecast"></div>
+                         <div class="col forecast"></div>
+                         <div class="col forecast"></div>
+                     </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+     
+
         <!-- col-10 weather container -->
             <!-- current weather -->
                 <!-- dynamically generated current country card -->
@@ -50,6 +122,8 @@
                     <!-- TEMP -->
                     <!-- WIND SPEEDS -->
                     <!-- HUMIDITY -->
+
+        </div>
             
     </main>
 

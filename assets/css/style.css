@@ -38,3 +38,28 @@ header .headerdiv h1:hover {
     cursor: none;
     color: #ad8a66;
 }
+
+/* SEARCH SIDE */
+#searchbtn {
+    height: auto;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* WEATHER SIDE */
+
+#currentweatherbox {
+    border: 1px solid #d1b2a4;
+    background: #FED9C9; 
+    border-radius: 5px;
+}
+
+
+/* 5-DAY FORECAST */
+.forecast {
+    border: 1px solid #FEC994;
+    background: #FFEFD8;
+    border-radius: 3px;
+    height: 30px;
+}
